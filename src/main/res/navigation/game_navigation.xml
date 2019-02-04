@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_navigation"
+    app:startDestination="@id/pauseFragment2">
+    <fragment
+        android:id="@+id/pauseFragment2"
+        android:name="ru.pushapp.misteryofegypt.PauseFragment"
+        android:label="fragment_pause"
+        tools:layout="@layout/fragment_pause" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="ru.pushapp.misteryofegypt.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+</navigation>

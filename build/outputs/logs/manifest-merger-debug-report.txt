@@ -1,155 +1,228 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-fragment-1.0.0-alpha11.aar\42c59078d766453e3f7db5c4f31b7336\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\620d47efe21fe46a1d3cc33afd75ec46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\efe5b4568d8a614cef1ed387aec08190\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\7e19aa542d2297df97b6c1ebfc773e6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d4dbb9c7c03ac3d96b3a75137965933b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-runtime-1.0.0-alpha11.aar\b27f78a019b3c1bddec73cb4b1933f02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3da6ddb479350ba261870205c559c75d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\cd0eb19b83a836909e24c0ed1197383d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\2084d3aec31fb5b5991914d0e90de41c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\420a2fca2801d9ef6d0d9dd137537000\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7c51358e59d90899c613596af310d8b1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-common-1.0.0-alpha11.aar\3a80861696b0eb293b7794f1ccc04539\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\61dc0e9ea276952bc64390c78726b9a1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f1f3b545b7c0920603955cd470627ace\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9475269906e0fdb4059efdc3df531db2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\52dadb51d0f69d27048818b293e5a5a1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\207db32768f31a508296bc4abdd03950\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\87391b766baa6bc833dfefa90ac5ed11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\b58fbf8ae306c7eea7bcbb15bd00293c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\638e43b106cd93388abed4d581bca119\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d7a5b5f163aa61e65ea10321ae43ac35\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\64f79b4305d7e6479251baa1b6780833\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\af2775a0328d6d4cd602a43ab1247190\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\725108075fab2a7fb7404a215ddde849\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\4087cfa0865bba130e0eef3ae1615041\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4e1bc1a0d21a8e260d4087293485e2a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c0fa6af8297ae0c73efc74d709d7f3cb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e82bd77e2eef234af34c7ffdcd8e4771\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e376c8ca5ecd6be345e7f159dd227d3e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5ab498288cee88a306d65184083927bb\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-66:12
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:5:5-45
-supports-screens
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:5-12:40
-	android:largeScreens
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:9:9-36
-	android:smallScreens
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:11:9-36
-	android:normalScreens
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:10:9-37
-	android:xlargeScreens
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:12:9-37
-	android:anyDensity
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:8:9-34
-application
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:13:5-50:19
-MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:14:5-35:19
-MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:14:5-35:19
-	android:label
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:17:9-41
-	android:icon
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:15:9-40
-	android:banner
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:14:9-46
-	android:theme
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:18:9-46
-	android:isGame
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:16:9-30
-activity#ru.pushapp.misteryofegypt.UnityPlayerActivity
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:19:9-39:20
-	android:screenOrientation
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:25:13-51
-	android:label
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:23:13-45
-	android:launchMode
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:24:13-44
-	android:hardwareAccelerated
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:22:13-48
-	android:configChanges
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:21:13-194
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:20:13-73
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:26:13-31:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:27:17-69
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:27:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:29:17-77
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:29:27-74
-category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:30:17-86
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:30:27-83
-meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:33:13-35:40
-	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:35:17-37
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:34:17-57
-meta-data#unityplayer.ForwardNativeEventsToDalvik
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:36:13-38:41
-	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:38:17-38
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:17-71
-meta-data#unity.build-id
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:41:9-43:68
-	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:43:13-65
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:42:13-42
-meta-data#unity.splash-mode
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:44:9-46:33
-	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:46:13-30
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:45:13-45
-meta-data#unity.splash-enable
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:47:9-49:36
-	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:49:13-33
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:48:13-47
 uses-feature#0x00020000
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:51:5-54
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:5-54
 	android:glEsVersion
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:51:19-51
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:5-67
-MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:12:5-67
-MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:12:5-67
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:22-64
-uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:54:5-56:36
-	android:required
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:56:9-33
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:55:9-52
-uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:57:5-59:36
-	android:required
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:59:9-33
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:58:9-63
-uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:60:5-62:36
-	android:required
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:62:9-33
-	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:61:9-72
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:19-51
 uses-feature#android.software.leanback
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:63:5-65:36
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:8:5-10:36
 	android:required
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:65:9-33
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:10:9-33
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:64:9-49
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:9:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:12:9-52
+application
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:15:5-53:19
+MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:14:5-35:19
+MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:14:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\efe5b4568d8a614cef1ed387aec08190\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\efe5b4568d8a614cef1ed387aec08190\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\638e43b106cd93388abed4d581bca119\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\638e43b106cd93388abed4d581bca119\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:17:9-40
+	android:banner
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:16:9-46
+	android:theme
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:20:9-46
+	android:isGame
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:18:9-30
+activity#ru.pushapp.misteryofegypt.GameActivity
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:21:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:24:13-49
+	android:process
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:23:13-43
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:22:13-41
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:25:13-27:40
+	android:value
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:27:17-37
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:26:17-57
+meta-data#unityplayer.ForwardNativeEventsToDalvik
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:28:13-30:41
+	android:value
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:30:17-38
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:29:17-71
+activity#ru.pushapp.misteryofegypt.UnityPlayerActivity
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:32:9-42:20
+	android:screenOrientation
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:35:13-49
+	android:hardwareAccelerated
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:34:13-47
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:33:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:36:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:39:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:40:17-86
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:40:27-83
+meta-data#unity.build-id
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:44:9-46:68
+	android:value
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:46:13-65
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:45:13-42
+meta-data#unity.splash-mode
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:47:9-49:33
+	android:value
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:49:13-30
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:48:13-45
+meta-data#unity.splash-enable
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:50:9-52:36
+	android:value
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:13-33
+	android:name
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:51:13-47
 uses-sdk
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:7:5-9:41
 MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-fragment-1.0.0-alpha11.aar\42c59078d766453e3f7db5c4f31b7336\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-fragment-1.0.0-alpha11.aar\42c59078d766453e3f7db5c4f31b7336\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\620d47efe21fe46a1d3cc33afd75ec46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\620d47efe21fe46a1d3cc33afd75ec46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\efe5b4568d8a614cef1ed387aec08190\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\efe5b4568d8a614cef1ed387aec08190\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\7e19aa542d2297df97b6c1ebfc773e6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\7e19aa542d2297df97b6c1ebfc773e6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d4dbb9c7c03ac3d96b3a75137965933b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d4dbb9c7c03ac3d96b3a75137965933b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-runtime-1.0.0-alpha11.aar\b27f78a019b3c1bddec73cb4b1933f02\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-runtime-1.0.0-alpha11.aar\b27f78a019b3c1bddec73cb4b1933f02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3da6ddb479350ba261870205c559c75d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3da6ddb479350ba261870205c559c75d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\cd0eb19b83a836909e24c0ed1197383d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\cd0eb19b83a836909e24c0ed1197383d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\2084d3aec31fb5b5991914d0e90de41c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\2084d3aec31fb5b5991914d0e90de41c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\420a2fca2801d9ef6d0d9dd137537000\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\420a2fca2801d9ef6d0d9dd137537000\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7c51358e59d90899c613596af310d8b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\7c51358e59d90899c613596af310d8b1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-common-1.0.0-alpha11.aar\3a80861696b0eb293b7794f1ccc04539\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha11] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\navigation-common-1.0.0-alpha11.aar\3a80861696b0eb293b7794f1ccc04539\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\61dc0e9ea276952bc64390c78726b9a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\61dc0e9ea276952bc64390c78726b9a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f1f3b545b7c0920603955cd470627ace\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f1f3b545b7c0920603955cd470627ace\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9475269906e0fdb4059efdc3df531db2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9475269906e0fdb4059efdc3df531db2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\52dadb51d0f69d27048818b293e5a5a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\52dadb51d0f69d27048818b293e5a5a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\207db32768f31a508296bc4abdd03950\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\207db32768f31a508296bc4abdd03950\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\87391b766baa6bc833dfefa90ac5ed11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\87391b766baa6bc833dfefa90ac5ed11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\b58fbf8ae306c7eea7bcbb15bd00293c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\b58fbf8ae306c7eea7bcbb15bd00293c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\638e43b106cd93388abed4d581bca119\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\638e43b106cd93388abed4d581bca119\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d7a5b5f163aa61e65ea10321ae43ac35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d7a5b5f163aa61e65ea10321ae43ac35\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\64f79b4305d7e6479251baa1b6780833\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\64f79b4305d7e6479251baa1b6780833\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\af2775a0328d6d4cd602a43ab1247190\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\af2775a0328d6d4cd602a43ab1247190\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\725108075fab2a7fb7404a215ddde849\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\725108075fab2a7fb7404a215ddde849\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\4087cfa0865bba130e0eef3ae1615041\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\4087cfa0865bba130e0eef3ae1615041\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4e1bc1a0d21a8e260d4087293485e2a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4e1bc1a0d21a8e260d4087293485e2a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c0fa6af8297ae0c73efc74d709d7f3cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c0fa6af8297ae0c73efc74d709d7f3cb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e82bd77e2eef234af34c7ffdcd8e4771\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e82bd77e2eef234af34c7ffdcd8e4771\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e376c8ca5ecd6be345e7f159dd227d3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e376c8ca5ecd6be345e7f159dd227d3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5ab498288cee88a306d65184083927bb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5ab498288cee88a306d65184083927bb\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -164,6 +237,10 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:12:22-64
 activity#com.unity3d.ads.adunit.AdUnitActivity
 ADDED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:15:9-19:74
 	android:hardwareAccelerated

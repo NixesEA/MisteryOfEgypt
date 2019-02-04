@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/startScreenFragment">
+
+    <fragment
+        android:id="@+id/startScreenFragment"
+        android:name="ru.pushapp.misteryofegypt.StartScreenFragment"
+        android:label="fragment_start_screen"
+        tools:layout="@layout/fragment_start_screen" >
+        <action
+            android:id="@+id/action_startScreenFragment_to_leaderBoardsFragment"
+            app:destination="@id/leaderBoardsFragment" />
+        <action
+            android:id="@+id/action_startScreenFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/leaderBoardsFragment"
+        android:name="ru.pushapp.misteryofegypt.LeaderBoardsFragment"
+        android:label="fragment_leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="ru.pushapp.misteryofegypt.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" />
+</navigation>
