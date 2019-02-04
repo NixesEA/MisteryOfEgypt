@@ -168,6 +168,10 @@
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pause_btn.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-mdpi\\pause_btn.png"
+    },
+    {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v24\\ic_launcher_foreground.xml"
     },
@@ -480,6 +484,10 @@
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pause_btn.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-xhdpi\\pause_btn.png"
+    },
+    {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\layout\\select_dialog_item_material.xml"
     },
@@ -524,12 +532,12 @@
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
-        "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -618,10 +626,6 @@
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn_shop.png.flat",
         "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-xxhdpi\\btn_shop.png"
-    },
-    {
-        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\navigation_game_navigation.xml.flat",
-        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\navigation\\game_navigation.xml"
     },
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_platform.png.flat",
@@ -1144,6 +1148,10 @@
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pause_btn.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-hdpi\\pause_btn.png"
+    },
+    {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -1356,6 +1364,10 @@
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_pause_btn.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-xxhdpi\\pause_btn.png"
+    },
+    {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -1556,6 +1568,10 @@
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4b26718a680f0b900dfba13ebf775dba\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\navigation_game_navigation_graph.xml.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\navigation\\game_navigation_graph.xml"
+    },
+    {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
@@ -1666,6 +1682,10 @@
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_result_background.png.flat",
         "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-hdpi\\result_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable_ic_heart_for_game.xml.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable\\ic_heart_for_game.xml"
     },
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1962,6 +1982,10 @@
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\620d47efe21fe46a1d3cc33afd75ec46\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_pause_btn.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-xxxhdpi\\pause_btn.png"
     },
     {
         "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",

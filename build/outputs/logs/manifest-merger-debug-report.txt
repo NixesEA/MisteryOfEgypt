@@ -150,9 +150,9 @@ ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:48:13-45
 meta-data#unity.splash-enable
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:50:9-52:36
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:50:9-52:37
 	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:13-33
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:13-34
 	android:name
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:51:13-47
 uses-sdk

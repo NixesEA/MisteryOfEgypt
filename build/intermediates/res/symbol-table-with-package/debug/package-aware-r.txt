@@ -677,6 +677,7 @@ drawable btn_play
 drawable btn_play_again
 drawable btn_shop
 drawable ic_coins_large
+drawable ic_heart_for_game
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icn_bonus1
@@ -699,6 +700,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pause_background
+drawable pause_btn
 drawable platform
 drawable result_background
 drawable shop_background
@@ -744,6 +746,7 @@ id bottom
 id btn_buy
 id btn_exit_menu
 id btn_leaderboard
+id btn_pause
 id btn_play
 id btn_play_again
 id btn_shop
@@ -758,6 +761,8 @@ id clip_horizontal
 id clip_vertical
 id close_btn
 id coins
+id coins_ic
+id coins_text
 id collapseActionView
 id content
 id contentPanel
@@ -777,7 +782,8 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
-id game_navigation
+id game_life
+id game_navigation_graph
 id gone
 id group_divider
 id groups
@@ -799,6 +805,7 @@ id leaderbards_background
 id leaderboard_coins_text
 id leaderboards_rv
 id left
+id life_text
 id line1
 id line3
 id linear
@@ -819,10 +826,11 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
-id pauseFragment2
+id pauseFragment
 id pause_background
 id pause_continue
 id pause_exit_menu
+id pause_frame
 id percent
 id progress_circular
 id progress_horizontal
@@ -947,7 +955,7 @@ mipmap ic_launcher
 mipmap ic_launcher_background
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
-navigation game_navigation
+navigation game_navigation_graph
 navigation navigation_graph
 string abc_action_bar_home_description
 string abc_action_bar_up_description

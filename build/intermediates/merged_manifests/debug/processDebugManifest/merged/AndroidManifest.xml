@@ -27,6 +27,7 @@
         android:icon="@mipmap/app_icon"
         android:isGame="true"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@style/BaseUnityTheme" >
         <activity
             android:name="ru.pushapp.misteryofegypt.GameActivity"
@@ -59,7 +60,7 @@
             android:value="0" />
         <meta-data
             android:name="unity.splash-enable"
-            android:value="true" />
+            android:value="false" />
 
         <activity
             android:name="com.unity3d.ads.adunit.AdUnitActivity"
