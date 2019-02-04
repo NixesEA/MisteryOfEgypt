@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_banner.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\layout_main_screen.xml.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\layout\\main_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    }
+]
