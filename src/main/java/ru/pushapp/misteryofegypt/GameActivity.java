@@ -3,6 +3,7 @@ package ru.pushapp.misteryofegypt;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,9 +14,10 @@ import android.widget.TextView;
 
 import com.unity3d.player.UnityPlayer;
 
-public class GameActivity extends Activity implements View.OnClickListener {
+public class GameActivity extends AppCompatActivity implements View.OnClickListener, PauseFragment.OnPauseListener, ResultFragment.OnResultListener{
 
     boolean showPause = false;
+    int countMoney = 0;
 
     ImageButton contiue;
     ImageButton backToMenu;
@@ -33,15 +35,6 @@ public class GameActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-
-//        pauseBackToMenu = findViewById(R.id.pause_exit_menu);
-//        pauseBackToMenu.setOnClickListener(this);
-
-//        backToMenu = findViewById(R.id.btn_exit_menu);
-//        backToMenu.setOnClickListener(this);
-
-//        contiue = findViewById(R.id.pause_continue);
-//        contiue.setOnClickListener(this);
 
         pause = findViewById(R.id.btn_pause);
         pause.setOnClickListener(this);
@@ -69,22 +62,32 @@ public class GameActivity extends Activity implements View.OnClickListener {
     }
 
     public void updateLife(String msg) {
-//        int life = Integer.valueOf(msg);
-//        Log.i("test update", "file: " + msg);
-//        Log.i("test update", "file: " + life);
 
+        int value = Integer.valueOf(msg);
         currentCountOfLife.setText(msg);
-        if (msg.equals("0")){
+        if (value < 1) {
             mUnityPlayer.pause();
 
-            View infl = getLayoutInflater().inflate(R.layout.fragment_result, null);
-            pauseLayout.addView(infl);
+
+            ResultFragment resultFragment = new ResultFragment();
+            resultFragment.setOnResultListener(this);
+
+            Bundle bundle = new Bundle();
+            bundle.putInt("countMoney", countMoney);
+            resultFragment.setArguments(bundle);
+
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.pause_frame, resultFragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+
             showPause = true;
         }
     }
 
     public void updateMoney(String msg) {
         Log.i("test update", "money: " + msg);
+        countMoney = Integer.valueOf(msg);
         currentScore.setText(msg);
     }
 
@@ -95,30 +98,44 @@ public class GameActivity extends Activity implements View.OnClickListener {
                 if (!showPause) {
                     mUnityPlayer.pause();
 
-                    View infl = getLayoutInflater().inflate(R.layout.fragment_pause, null);
-                    pauseLayout.addView(infl);
+                    PauseFragment pauseFragment= new PauseFragment();
+                    pauseFragment.setOnPauseListener(this);
+
+                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.replace(R.id.pause_frame, pauseFragment);
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
+
                     showPause = true;
                 } else {
                     mUnityPlayer.resume();
                     pauseLayout.removeAllViews();
+
                     showPause = false;
                 }
                 break;
-            case R.id.pause_continue:
-                mUnityPlayer.resume();
-                pauseLayout.removeAllViews();
-                showPause = false;
-                break;
-            case R.id.btn_exit_menu:
-                finish();
-                break;
-            case R.id.pause_exit_menu:
-                finish();
-                break;
-
         }
-
     }
+
+    @Override
+    public void continueGame() {
+        showPause = false;
+        pauseLayout.removeAllViews();
+        mUnityPlayer.resume();
+    }
+
+    @Override
+    public void playAgain() {
+        showPause = false;
+        pauseLayout.removeAllViews();
+        mUnityPlayer.UnitySendMessage("Player", "restartGame", "");
+        mUnityPlayer.resume();
+    }
+
+
+
+
+
 
     @Override
     protected void onNewIntent(Intent intent) {

@@ -1,5 +1,6 @@
 package ru.pushapp.misteryofegypt;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -9,19 +10,23 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-import androidx.navigation.Navigation;
-
 public class PauseFragment extends Fragment implements View.OnClickListener {
 
     ImageButton continue_btn;
+    ImageButton exit_btn;
+
+    OnPauseListener callback;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_pause, container, false);
 
-//        continue_btn = view.findViewById(R.id.pause_continue);
-//        continue_btn.setOnClickListener(this);
+        continue_btn = view.findViewById(R.id.pause_continue);
+        continue_btn.setOnClickListener(this);
+
+        exit_btn = view.findViewById(R.id.pause_exit_menu);
+        exit_btn.setOnClickListener(this);
 
         return view;
     }
@@ -29,6 +34,21 @@ public class PauseFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-//        Navigation.findNavController(view).navigate(R.id.action_pauseFragment2_to_leaderBoardsFragment);
+        switch (view.getId()){
+            case R.id.pause_continue:
+                callback.continueGame();
+                break;
+            case R.id.pause_exit_menu:
+                getActivity().finish();
+                break;
+        }
+    }
+
+    public void setOnPauseListener(Activity activity) {
+        callback = (OnPauseListener) activity;
+    }
+
+    public interface OnPauseListener {
+        void continueGame();
     }
 }
