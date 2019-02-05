@@ -1,4 +1,4 @@
-package ru.pushapp.misteryofegypt;
+package ru.pushapp.misteryofegypt.game;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -6,10 +6,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import ru.pushapp.misteryofegypt.start.LeaderUnit;
+import ru.pushapp.misteryofegypt.R;
 
 public class rvAdapter extends RecyclerView.Adapter<rvAdapter.rvAdapterHolder> {
 
@@ -31,9 +33,9 @@ public class rvAdapter extends RecyclerView.Adapter<rvAdapter.rvAdapterHolder> {
 
 
     private LayoutInflater inflater;
-    private static ArrayList<LeaderModel> list_items;
+    private static ArrayList<LeaderUnit> list_items;
 
-    public rvAdapter(Context context, ArrayList<LeaderModel> items) {
+    public rvAdapter(Context context, ArrayList<LeaderUnit> items) {
         this.list_items = items;
 
         inflater = LayoutInflater.from(context);

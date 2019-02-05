@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startScreenFragment"
-        android:name="ru.pushapp.misteryofegypt.StartScreenFragment"
+        android:name="ru.pushapp.misteryofegypt.start.StartScreenFragment"
         android:label="fragment_start_screen"
         tools:layout="@layout/fragment_start_screen" >
         <action
@@ -20,12 +20,12 @@
     </fragment>
     <fragment
         android:id="@+id/leaderBoardsFragment"
-        android:name="ru.pushapp.misteryofegypt.LeaderBoardsFragment"
+        android:name="ru.pushapp.misteryofegypt.start.LeaderBoardsFragment"
         android:label="fragment_leaderboard"
         tools:layout="@layout/fragment_leaderboard" />
     <fragment
         android:id="@+id/shopFragment"
-        android:name="ru.pushapp.misteryofegypt.ShopFragment"
+        android:name="ru.pushapp.misteryofegypt.start.ShopFragment"
         android:label="fragment_shop"
         tools:layout="@layout/fragment_shop" />
 </navigation>

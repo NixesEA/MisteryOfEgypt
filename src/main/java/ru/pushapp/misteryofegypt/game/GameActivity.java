@@ -1,7 +1,8 @@
-package ru.pushapp.misteryofegypt;
+package ru.pushapp.misteryofegypt.game;
 
-import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -14,15 +15,13 @@ import android.widget.TextView;
 
 import com.unity3d.player.UnityPlayer;
 
+import ru.pushapp.misteryofegypt.R;
+
 public class GameActivity extends AppCompatActivity implements View.OnClickListener, PauseFragment.OnPauseListener, ResultFragment.OnResultListener{
+    //todo add external life
 
     boolean showPause = false;
     int countMoney = 0;
-
-    ImageButton contiue;
-    ImageButton backToMenu;
-    ImageButton pauseBackToMenu;
-
 
     ImageButton pause;
     TextView currentScore;
@@ -56,6 +55,16 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         layout.addView(playerView, 0);
     }
 
+    private void checkExternalLife() {
+        SharedPreferences sharedPreferences = getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        int currentCountExternalLife = sharedPreferences.getInt("life", 0);
+
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putInt("life", 0);
+//        editor.commit();
+
+        mUnityPlayer.UnitySendMessage("Player", "addLife", String.valueOf(currentCountExternalLife));
+    }
 
     public void setTextView(String msg) {
 //        Log.i("TEST", "setTextView: " + msg);
@@ -78,15 +87,13 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.pause_frame, resultFragment);
-            fragmentTransaction.addToBackStack(null);
-            fragmentTransaction.commit();
+            fragmentTransaction.commitNow();
 
             showPause = true;
         }
     }
 
     public void updateMoney(String msg) {
-        Log.i("test update", "money: " + msg);
         countMoney = Integer.valueOf(msg);
         currentScore.setText(msg);
     }
@@ -103,8 +110,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
                     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                     fragmentTransaction.replace(R.id.pause_frame, pauseFragment);
-                    fragmentTransaction.addToBackStack(null);
-                    fragmentTransaction.commit();
+                    fragmentTransaction.commitNow();
 
                     showPause = true;
                 } else {
@@ -128,6 +134,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     public void playAgain() {
         showPause = false;
         pauseLayout.removeAllViews();
+        mUnityPlayer.UnitySendMessage("Player", "setMoney", "0");
         mUnityPlayer.UnitySendMessage("Player", "restartGame", "");
         mUnityPlayer.resume();
     }
@@ -166,6 +173,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onResume() {
         Log.i("life", "onResume");
+        checkExternalLife();
         super.onResume();
         mUnityPlayer.resume();
     }

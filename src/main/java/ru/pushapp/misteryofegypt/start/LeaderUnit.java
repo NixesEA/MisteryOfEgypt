@@ -1,12 +1,13 @@
-package ru.pushapp.misteryofegypt;
+package ru.pushapp.misteryofegypt.start;
 
-public class LeaderModel {
+
+public class LeaderUnit {
 
     int number;
     String name;
     int score;
 
-    public LeaderModel(int number, String name, int score) {
+    public LeaderUnit(int number, String name, int score) {
         this.number = number;
         this.name = name;
         this.score = score;

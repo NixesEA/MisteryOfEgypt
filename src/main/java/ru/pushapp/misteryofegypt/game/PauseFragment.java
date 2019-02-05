@@ -1,14 +1,17 @@
-package ru.pushapp.misteryofegypt;
+package ru.pushapp.misteryofegypt.game;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+
+import ru.pushapp.misteryofegypt.R;
 
 public class PauseFragment extends Fragment implements View.OnClickListener {
 
@@ -27,6 +30,9 @@ public class PauseFragment extends Fragment implements View.OnClickListener {
 
         exit_btn = view.findViewById(R.id.pause_exit_menu);
         exit_btn.setOnClickListener(this);
+
+        Log.i("TESTTAG","onCreateViewPause");
+
 
         return view;
     }

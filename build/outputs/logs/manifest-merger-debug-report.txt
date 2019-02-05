@@ -95,14 +95,14 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gra
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:20:7-63
 	android:isGame
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:18:7-28
-activity#ru.pushapp.misteryofegypt.GameActivity
+activity#ru.pushapp.misteryofegypt.game.GameActivity
 ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:21:5-31:16
 	android:screenOrientation
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:24:9-45
 	android:process
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:23:9-39
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:22:9-37
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:22:9-42
 meta-data#unityplayer.UnityActivity
 ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:25:7-27:34
 	android:value
@@ -115,14 +115,14 @@ ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidMa
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:30:11-32
 	android:name
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:29:11-65
-activity#ru.pushapp.misteryofegypt.UnityPlayerActivity
+activity#ru.pushapp.misteryofegypt.start.UnityPlayerActivity
 ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:32:5-42:16
 	android:screenOrientation
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:35:9-45
 	android:hardwareAccelerated
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:34:9-43
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:33:9-44
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:33:9-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
 ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:36:7-41:23
 action#android.intent.action.MAIN

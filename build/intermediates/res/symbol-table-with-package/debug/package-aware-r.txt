@@ -744,7 +744,7 @@ id beginning
 id blocking
 id bottom
 id btn_buy
-id btn_exit_menu
+id btn_exit_menu_result
 id btn_leaderboard
 id btn_pause
 id btn_play

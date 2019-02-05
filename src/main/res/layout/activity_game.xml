@@ -5,7 +5,7 @@
     android:theme="@style/Theme.AppCompat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameActivity">
+    tools:context=".game.GameActivity">
 
     <FrameLayout
         android:id="@+id/unity_frame"

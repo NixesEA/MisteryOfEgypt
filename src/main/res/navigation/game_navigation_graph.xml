@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/pauseFragment"
-        android:name="ru.pushapp.misteryofegypt.PauseFragment"
+        android:name="ru.pushapp.misteryofegypt.game.PauseFragment"
         android:label="fragment_pause"
         tools:layout="@layout/fragment_pause" />
     <fragment
         android:id="@+id/resultFragment"
-        android:name="ru.pushapp.misteryofegypt.ResultFragment"
+        android:name="ru.pushapp.misteryofegypt.game.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" />
 </navigation>
