@@ -1,6 +1,9 @@
 package ru.pushapp.misteryofegypt.start;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,6 +14,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 import ru.pushapp.misteryofegypt.R;
@@ -33,15 +40,21 @@ public class LeaderBoardsFragment extends Fragment implements View.OnClickListen
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        ArrayList<LeaderUnit> urlList = new ArrayList<>();
-        urlList.clear();
-        urlList.add(new LeaderUnit(1,"name1",100));
-        urlList.add(new LeaderUnit(2,"name2",200));
-        urlList.add(new LeaderUnit(3,"name3",300));
-        urlList.add(new LeaderUnit(4,"name4",400));
-        urlList.add(new LeaderUnit(5,"name5",500));
+        ArrayList<LeaderUnit> leaderList = getArrayList();
+        int listSize = 5;
+        try{
+            listSize = 5 - leaderList.size();
+        }catch (NullPointerException ignored){
+            leaderList = new ArrayList<>();
+        }
 
-        rvAdapter adapter = new rvAdapter(getContext(), urlList);
+        while (listSize > 0){
+            leaderList.add(new LeaderUnit("User " + (6 - listSize),100 * listSize));
+            listSize--;
+        }
+        saveArrayList(leaderList);
+
+        rvAdapter adapter = new rvAdapter(getContext(), leaderList);
         recyclerView.setAdapter(adapter);
 
         return view;
@@ -51,5 +64,25 @@ public class LeaderBoardsFragment extends Fragment implements View.OnClickListen
     @Override
     public void onClick(View view) {
         getActivity().onBackPressed();
+    }
+
+    /**
+     *     Save and get ArrayList in SharedPreference
+     */
+    public void saveArrayList(ArrayList<LeaderUnit> list){
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(list);
+        editor.putString("leaderBoard", json);
+        editor.commit();
+    }
+
+    public ArrayList<LeaderUnit> getArrayList(){
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        Gson gson = new Gson();
+        String json = sharedPreferences.getString("leaderBoard", null);
+        Type type = new TypeToken<ArrayList<LeaderUnit>>() {}.getType();
+        return gson.fromJson(json, type);
     }
 }

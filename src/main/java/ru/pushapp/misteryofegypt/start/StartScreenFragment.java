@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+
 import androidx.navigation.Navigation;
 import ru.pushapp.misteryofegypt.R;
 import ru.pushapp.misteryofegypt.game.GameActivity;
@@ -43,7 +44,6 @@ public class StartScreenFragment extends Fragment implements View.OnClickListene
 
         return view;
     }
-
 
     @Override
     public void onResume() {

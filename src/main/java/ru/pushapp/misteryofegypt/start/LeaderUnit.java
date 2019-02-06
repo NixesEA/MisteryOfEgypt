@@ -1,14 +1,15 @@
 package ru.pushapp.misteryofegypt.start;
 
 
-public class LeaderUnit {
+import android.support.annotation.NonNull;
+
+public class LeaderUnit implements Comparable {
 
     int number;
     String name;
     int score;
 
-    public LeaderUnit(int number, String name, int score) {
-        this.number = number;
+    public LeaderUnit(String name, int score) {
         this.name = name;
         this.score = score;
     }
@@ -35,5 +36,12 @@ public class LeaderUnit {
 
     public void setScore(int score) {
         this.score = score;
+    }
+
+    @Override
+    public int compareTo(@NonNull Object o) {
+//    public int compareTo(@NonNull LeaderUnit leaderUnit) {
+        int comparescore = ((LeaderUnit) o).getScore();
+        return -(this.score - comparescore);
     }
 }

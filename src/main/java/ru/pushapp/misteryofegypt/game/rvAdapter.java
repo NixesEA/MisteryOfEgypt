@@ -26,7 +26,7 @@ public class rvAdapter extends RecyclerView.Adapter<rvAdapter.rvAdapterHolder> {
             super(itemView);
             number = itemView.findViewById(R.id.leader_number);
             name = itemView.findViewById(R.id.leader_name);
-            score= itemView.findViewById(R.id.leaderboard_coins_text);
+            score = itemView.findViewById(R.id.leaderboard_coins_text);
 
         }
     }
@@ -49,7 +49,7 @@ public class rvAdapter extends RecyclerView.Adapter<rvAdapter.rvAdapterHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull final rvAdapterHolder holder, int position) {
-        String number = list_items.get(position).getNumber() + ".";
+        String number = position + 1 + ".";
         String name = list_items.get(position).getName();
         String score = list_items.get(position).getScore() + "";
 

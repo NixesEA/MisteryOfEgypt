@@ -14,7 +14,15 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.Collections;
+
 import ru.pushapp.misteryofegypt.R;
+import ru.pushapp.misteryofegypt.start.LeaderUnit;
 
 public class ResultFragment extends Fragment implements View.OnClickListener {
 
@@ -42,31 +50,67 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
         resultTv = view.findViewById(R.id.result_count_coins);
         resultTv.setText(result);
 
-        Log.i("TESTTAG", "onCreateView");
-
-
         return view;
     }
 
     private void saveResult() {
+        //save result
         SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
         int money = sharedPreferences.getInt("money", 0);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putInt("money", money + countMoney);
         editor.commit();
+
+        //save in leader board
+        ArrayList<LeaderUnit> leaderList = getArrayList();
+        if (leaderList == null){
+            leaderList = new ArrayList<>();
+            int listSize = leaderList.size();
+            while (listSize < 5){
+                leaderList.add(new LeaderUnit("User " + (5 - listSize),100 * (listSize + 1)));
+                listSize++;
+            }
+        }
+        leaderList.add(new LeaderUnit("Live User ", countMoney));
+        Collections.sort(leaderList);
+
+        while (leaderList.size() > 5){
+            leaderList.remove(5);
+        }
+
+        saveArrayList(leaderList);
+
     }
 
+    /**
+     *     Save and get ArrayList in SharedPreference
+     */
+    public void saveArrayList(ArrayList<LeaderUnit> list){
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(list);
+        editor.putString("leaderBoard", json);
+        editor.commit();
+    }
+
+    public ArrayList<LeaderUnit> getArrayList(){
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        Gson gson = new Gson();
+        String json = sharedPreferences.getString("leaderBoard", null);
+        Type type = new TypeToken<ArrayList<LeaderUnit>>() {}.getType();
+        return gson.fromJson(json, type);
+    }
 
     @Override
     public void onClick(View view) {
+        saveResult();
         switch (view.getId()) {
             case R.id.btn_play_again:
                 callback.playAgain();
                 break;
             case R.id.btn_exit_menu_result:
-                saveResult();
                 getActivity().finish();
-//                getActivity().onBackPressed();
                 break;
         }
     }
