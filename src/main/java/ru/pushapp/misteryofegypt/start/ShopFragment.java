@@ -38,12 +38,14 @@ public class ShopFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.shop_close:
+            case R.id.shop_close:{
                 getActivity().onBackPressed();
                 break;
-            case R.id.btn_buy:
+            }
+            case R.id.btn_buy:{
                 buyExternalLife();
                 break;
+            }
         }
 
     }
@@ -61,8 +63,6 @@ public class ShopFragment extends Fragment implements View.OnClickListener {
             editor.putInt("money", userMoney);
             editor.putInt("life", currentCountExternalLife);
             editor.commit();
-
-            Toast.makeText(getActivity(),"Куплена 1 дополнительная жизнь, всего " + currentCountExternalLife, Toast.LENGTH_LONG).show();
         }else{
             Toast.makeText(getActivity(),"Нужно больше золота", Toast.LENGTH_LONG).show();
         }

@@ -20,12 +20,17 @@
     </fragment>
     <fragment
         android:id="@+id/leaderBoardsFragment"
-        android:name="ru.pushapp.misteryofegypt.start.LeaderBoardsFragment"
+        android:name="ru.pushapp.misteryofegypt.start.LeaderBoardFragment"
         android:label="fragment_leaderboard"
-        tools:layout="@layout/fragment_leaderboard" />
+        tools:layout="@layout/fragment_leaderboard" >
+        <action
+            android:id="@+id/action_leaderBoardsFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+    </fragment>
     <fragment
         android:id="@+id/shopFragment"
         android:name="ru.pushapp.misteryofegypt.start.ShopFragment"
         android:label="fragment_shop"
         tools:layout="@layout/fragment_shop" />
+
 </navigation>

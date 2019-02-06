@@ -3,25 +3,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/transparent"
-    android:padding="6dp"
-    android:layout_marginTop="40dp"
+
     android:layout_gravity="center_horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btn_shop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/btn_shop"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/leaderbards_background"
         android:background="@color/transparent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/leaderboards_background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <ImageButton
         android:id="@+id/close_btn"
         android:background="@color/transparent"
         android:src="@drawable/btn_close"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/leaderbards_background"
+        app:layout_constraintEnd_toEndOf="@id/leaderbards_background"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="16dp"
         android:layout_width="wrap_content"
@@ -29,9 +41,9 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/leaderboards_rv"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/leaderbards_background"
+        app:layout_constraintStart_toStartOf="@id/leaderbards_background"
+        app:layout_constraintEnd_toEndOf="@id/leaderbards_background"
         android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
