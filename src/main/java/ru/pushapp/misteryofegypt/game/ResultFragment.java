@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -29,6 +30,7 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
     ImageButton playAgain;
     ImageButton exit;
     TextView resultTv;
+    EditText editNameLeader;
 
     int countMoney = 0;
     int countLastExternalLife = 0;
@@ -39,6 +41,11 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_result, container, false);
+
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        String userName = sharedPreferences.getString("userName", "LiveUser");
+        editNameLeader = view.findViewById(R.id.edit_name_leader);
+        editNameLeader.setText(userName);
 
         playAgain = view.findViewById(R.id.btn_play_again);
         playAgain.setOnClickListener(this);
@@ -74,7 +81,16 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
                 listSize++;
             }
         }
-        leaderList.add(new LeaderUnit("Live User ", countMoney));
+
+
+        String userName = editNameLeader.getText().toString();
+        if (userName.equals("")) {
+            userName = "LiveUser";
+        }
+        editor.putString("userName", userName);
+        editor.commit();
+
+        leaderList.add(new LeaderUnit(userName, countMoney));
         Collections.sort(leaderList);
 
         while (leaderList.size() > 5){

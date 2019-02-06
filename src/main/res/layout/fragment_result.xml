@@ -16,13 +16,12 @@
         android:src="@drawable/result_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/very_good_tv"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/result_background"
         app:layout_constraintBottom_toTopOf="@id/linear"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +32,23 @@
         android:textStyle="bold"
         android:textSize="32sp"
         android:text="VERY GOOD!"/>
+
+    <EditText
+        android:id="@+id/edit_name_leader"
+        app:layout_constraintTop_toBottomOf="@id/very_good_tv"
+        app:layout_constraintBottom_toTopOf="@id/linear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:theme="@style/EditTextTheme"
+        android:maxLines="1"
+        android:maxLength="13"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="LiveUser"/>
 
     <LinearLayout
         android:id="@+id/linear"
@@ -80,7 +96,7 @@
         android:id="@+id/btn_play_again"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/result_background"
         android:layout_marginBottom="20dp"
         android:background="@color/transparent"
         android:src="@drawable/btn_play_again"
