@@ -28,7 +28,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     TextView currentCountOfLife;
     FrameLayout pauseLayout;
 
-    protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
+    protected UnityPlayer mUnityPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +62,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         mUnityPlayer.UnitySendMessage("Player", "setExternalLife", String.valueOf(externalLife));
     }
 
+    //function for UNITY
     public void updateExternalLife(String msg) {
         externalLife = Integer.valueOf(msg);
     }

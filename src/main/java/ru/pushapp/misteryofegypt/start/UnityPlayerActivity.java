@@ -10,7 +10,6 @@ import ru.pushapp.misteryofegypt.R;
 
 public class UnityPlayerActivity extends FragmentActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 
-
     TextView coinsTV;
     TextView externalLifeTV;
 
@@ -33,7 +32,6 @@ public class UnityPlayerActivity extends FragmentActivity implements SharedPrefe
         externalLifeTV.setText(String.valueOf(externalLife));
 
         sharedPreferences.registerOnSharedPreferenceChangeListener(this);
-
         super.onResume();
     }
 

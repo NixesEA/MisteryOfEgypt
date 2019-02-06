@@ -24,7 +24,6 @@ public class ShopFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_shop, container, false);
 
-
         buy = view.findViewById(R.id.btn_buy);
         buy.setOnClickListener(this);
 
@@ -47,7 +46,6 @@ public class ShopFragment extends Fragment implements View.OnClickListener {
                 break;
             }
         }
-
     }
 
     private void buyExternalLife() {

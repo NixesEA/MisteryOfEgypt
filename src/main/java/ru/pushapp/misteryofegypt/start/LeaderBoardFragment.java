@@ -26,8 +26,8 @@ public class LeaderBoardFragment extends Fragment implements View.OnClickListene
 
     ImageButton shop;
 
-    RecyclerView recyclerView;
     ImageButton close;
+    RecyclerView recyclerView;
 
     @Nullable
     @Override
@@ -40,26 +40,12 @@ public class LeaderBoardFragment extends Fragment implements View.OnClickListene
         close = view.findViewById(R.id.close_btn);
         close.setOnClickListener(this);
 
-        recyclerView = view.findViewById(R.id.leaderboards_rv);
-
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
-        recyclerView.setLayoutManager(linearLayoutManager);
-
         ArrayList<LeaderUnit> leaderList = getArrayList();
-        int listSize = 5;
-        try {
-            listSize = 5 - leaderList.size();
-        } catch (NullPointerException ignored) {
-            leaderList = new ArrayList<>();
-        }
-
-        while (listSize > 0) {
-            leaderList.add(new LeaderUnit("User " + (6 - listSize), 100 * listSize));
-            listSize--;
-        }
-        saveArrayList(leaderList);
-
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
         rvAdapter adapter = new rvAdapter(getContext(), leaderList);
+
+        recyclerView = view.findViewById(R.id.leaderboards_rv);
+        recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
 
         return view;
@@ -78,7 +64,6 @@ public class LeaderBoardFragment extends Fragment implements View.OnClickListene
                 break;
             }
         }
-
     }
 
     /**
@@ -98,6 +83,21 @@ public class LeaderBoardFragment extends Fragment implements View.OnClickListene
         Gson gson = new Gson();
         String json = sharedPreferences.getString("leaderBoard", null);
         Type type = new TypeToken<ArrayList<LeaderUnit>>() {}.getType();
-        return gson.fromJson(json, type);
+
+        ArrayList<LeaderUnit> leaderList = gson.fromJson(json, type);
+        int listSize = 5;
+        try {
+            listSize = 5 - leaderList.size();
+        } catch (NullPointerException ignored) {
+            leaderList = new ArrayList<>();
+        }
+
+        while (listSize > 0) {
+            leaderList.add(new LeaderUnit("User " + (6 - listSize), 100 * listSize));
+            listSize--;
+        }
+        saveArrayList(leaderList);
+
+        return leaderList;
     }
 }
