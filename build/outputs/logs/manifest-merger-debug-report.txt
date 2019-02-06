@@ -58,23 +58,23 @@ INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\Androi
 	android:installLocation
 		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:5:5-45
 uses-feature#0x00020000
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:3-52
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:5-54
 	android:glEsVersion
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:17-49
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:7:19-51
 uses-feature#android.software.leanback
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:8:3-10:34
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:8:5-10:36
 	android:required
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:10:7-31
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:10:9-33
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:9:7-47
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:9:9-49
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:11:3-13:34
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:11:5-13:36
 	android:required
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:13:7-31
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:13:9-33
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:12:7-50
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:12:9-52
 application
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:15:3-53:17
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:15:5-53:19
 MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:14:5-35:19
 MERGED from [:UnityAds:] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\UnityAds.aar\7021b262343696fc706636d0aaf6ae87\AndroidManifest.xml:14:5-35:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\efe5b4568d8a614cef1ed387aec08190\AndroidManifest.xml:9:5-20
@@ -86,75 +86,75 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Anton\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b26718a680f0b900dfba13ebf775dba\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:19:7-39
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:17:7-38
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:17:9-40
 	android:banner
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:16:7-44
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:16:9-46
 	android:theme
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:20:7-63
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:20:9-65
 	android:isGame
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:18:7-28
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:18:9-30
 activity#ru.pushapp.misteryofegypt.game.GameActivity
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:21:5-31:16
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:21:9-31:20
 	android:screenOrientation
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:24:9-45
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:24:13-49
 	android:process
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:23:9-39
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:23:13-43
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:22:9-42
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:22:13-46
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:25:7-27:34
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:25:13-27:40
 	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:27:11-31
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:27:17-37
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:26:11-51
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:26:17-57
 meta-data#unityplayer.ForwardNativeEventsToDalvik
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:28:7-30:35
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:28:13-30:41
 	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:30:11-32
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:30:17-38
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:29:11-65
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:29:17-71
 activity#ru.pushapp.misteryofegypt.start.UnityPlayerActivity
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:32:5-42:16
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:32:9-42:20
 	android:screenOrientation
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:35:9-45
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:35:13-49
 	android:hardwareAccelerated
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:34:9-43
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:34:13-47
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:33:9-50
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:33:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:36:7-41:23
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:36:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:9-61
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:17-58
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:39:9-69
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:39:19-66
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:39:27-74
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:40:9-78
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:40:17-86
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:40:19-75
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:40:27-83
 meta-data#unity.build-id
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:44:5-46:64
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:44:9-46:68
 	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:46:9-61
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:46:13-65
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:45:9-38
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:45:13-42
 meta-data#unity.splash-mode
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:47:5-49:29
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:47:9-49:33
 	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:49:9-26
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:49:13-30
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:48:9-41
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:48:13-45
 meta-data#unity.splash-enable
-ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:50:5-52:33
+ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:50:9-52:37
 	android:value
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:9-30
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:52:13-34
 	android:name
-		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:51:9-43
+		ADDED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml:51:13-47
 uses-sdk
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Anton\Desktop\ExportFolder\MisteryOfEgypt\src\main\AndroidManifest.xml
