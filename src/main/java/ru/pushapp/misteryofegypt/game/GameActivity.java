@@ -18,10 +18,10 @@ import com.unity3d.player.UnityPlayer;
 import ru.pushapp.misteryofegypt.R;
 
 public class GameActivity extends AppCompatActivity implements View.OnClickListener, PauseFragment.OnPauseListener, ResultFragment.OnResultListener{
-    //todo add external life
 
     boolean showPause = false;
     int countMoney = 0;
+    int externalLife = 0;
 
     ImageButton pause;
     TextView currentScore;
@@ -57,17 +57,17 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     private void checkExternalLife() {
         SharedPreferences sharedPreferences = getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
-        int currentCountExternalLife = sharedPreferences.getInt("life", 0);
-
-//        SharedPreferences.Editor editor = sharedPreferences.edit();
-//        editor.putInt("life", 0);
-//        editor.commit();
-
-        mUnityPlayer.UnitySendMessage("Player", "addLife", String.valueOf(currentCountExternalLife));
+        externalLife = sharedPreferences.getInt("life", 0);
+        mUnityPlayer.UnitySendMessage("Player", "setExternalLife", String.valueOf(externalLife));
     }
 
-    public void setTextView(String msg) {
-//        Log.i("TEST", "setTextView: " + msg);
+    public void updateExternalLife(String msg) {
+        externalLife = Integer.valueOf(msg);
+    }
+
+    public void updateMoney(String msg) {
+        countMoney = Integer.valueOf(msg);
+        currentScore.setText(msg);
     }
 
     public void updateLife(String msg) {
@@ -76,7 +76,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         currentCountOfLife.setText(msg);
         if (value < 1) {
             mUnityPlayer.pause();
-
 
             ResultFragment resultFragment = new ResultFragment();
             resultFragment.setOnResultListener(this);
@@ -93,11 +92,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    public void updateMoney(String msg) {
-        countMoney = Integer.valueOf(msg);
-        currentScore.setText(msg);
-    }
-
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -107,6 +101,10 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
                     PauseFragment pauseFragment= new PauseFragment();
                     pauseFragment.setOnPauseListener(this);
+
+                    Bundle bundle = new Bundle();
+                    bundle.putInt("externalLife", externalLife);
+                    pauseFragment.setArguments(bundle);
 
                     FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                     fragmentTransaction.replace(R.id.pause_frame, pauseFragment);

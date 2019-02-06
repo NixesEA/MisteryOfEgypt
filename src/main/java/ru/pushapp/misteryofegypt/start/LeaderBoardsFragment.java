@@ -3,7 +3,6 @@ package ru.pushapp.misteryofegypt.start;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -21,7 +20,6 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 import ru.pushapp.misteryofegypt.R;
-import ru.pushapp.misteryofegypt.game.rvAdapter;
 
 public class LeaderBoardsFragment extends Fragment implements View.OnClickListener {
 

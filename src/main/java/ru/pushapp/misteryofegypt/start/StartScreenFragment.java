@@ -25,6 +25,7 @@ public class StartScreenFragment extends Fragment implements View.OnClickListene
     ImageButton shop;
 
     TextView coinsTV;
+    TextView externalLifeTV;
 
     @Nullable
     @Override
@@ -32,6 +33,7 @@ public class StartScreenFragment extends Fragment implements View.OnClickListene
         View view = inflater.inflate(R.layout.fragment_start_screen, container, false);
 
         coinsTV = view.findViewById(R.id.count_coins);
+        externalLifeTV = view.findViewById(R.id.count_life);
 
         play = view.findViewById(R.id.btn_play);
         play.setOnClickListener(this);
@@ -49,8 +51,10 @@ public class StartScreenFragment extends Fragment implements View.OnClickListene
     public void onResume() {
         SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
         int userBalance = sharedPreferences.getInt("money", 0);
+        int externalLife = sharedPreferences.getInt("life", 0);
 
         coinsTV.setText(String.valueOf(userBalance));
+        externalLifeTV.setText(String.valueOf(externalLife));
         super.onResume();
     }
 

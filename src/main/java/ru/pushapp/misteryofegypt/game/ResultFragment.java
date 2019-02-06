@@ -31,6 +31,7 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
     TextView resultTv;
 
     int countMoney = 0;
+    int countLastExternalLife = 0;
 
     OnResultListener callback;
 
@@ -46,6 +47,7 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
         exit.setOnClickListener(this);
 
         countMoney = getArguments().getInt("countMoney");
+        countLastExternalLife = getArguments().getInt("externalLife");
         String result = "+ " + countMoney;
         resultTv = view.findViewById(R.id.result_count_coins);
         resultTv.setText(result);
@@ -59,6 +61,7 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
         int money = sharedPreferences.getInt("money", 0);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putInt("money", money + countMoney);
+        editor.putInt("life", countLastExternalLife);
         editor.commit();
 
         //save in leader board
@@ -79,7 +82,6 @@ public class ResultFragment extends Fragment implements View.OnClickListener {
         }
 
         saveArrayList(leaderList);
-
     }
 
     /**

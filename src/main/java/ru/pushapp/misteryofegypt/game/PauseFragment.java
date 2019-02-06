@@ -1,6 +1,8 @@
 package ru.pushapp.misteryofegypt.game;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -20,6 +22,8 @@ public class PauseFragment extends Fragment implements View.OnClickListener {
 
     OnPauseListener callback;
 
+    int countLastExternalLife = 0;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -31,7 +35,11 @@ public class PauseFragment extends Fragment implements View.OnClickListener {
         exit_btn = view.findViewById(R.id.pause_exit_menu);
         exit_btn.setOnClickListener(this);
 
-        Log.i("TESTTAG","onCreateViewPause");
+        countLastExternalLife = getArguments().getInt("externalLife");
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("life", countLastExternalLife);
+        editor.commit();
 
 
         return view;

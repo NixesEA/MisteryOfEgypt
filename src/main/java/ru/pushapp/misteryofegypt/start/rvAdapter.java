@@ -1,4 +1,4 @@
-package ru.pushapp.misteryofegypt.game;
+package ru.pushapp.misteryofegypt.start;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import ru.pushapp.misteryofegypt.start.LeaderUnit;
 import ru.pushapp.misteryofegypt.R;
 
 public class rvAdapter extends RecyclerView.Adapter<rvAdapter.rvAdapterHolder> {

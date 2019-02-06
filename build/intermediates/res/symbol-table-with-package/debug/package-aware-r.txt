@@ -767,6 +767,7 @@ id collapseActionView
 id content
 id contentPanel
 id count_coins
+id count_life
 id custom
 id customPanel
 id decor_content_parent
@@ -778,6 +779,7 @@ id edit_query
 id end
 id expand_activities_button
 id expanded_menu
+id external_life
 id fill
 id fill_horizontal
 id fill_vertical
