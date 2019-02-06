@@ -58,6 +58,8 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     private void checkExternalLife() {
         SharedPreferences sharedPreferences = getSharedPreferences("local", Context.MODE_MULTI_PROCESS);
         externalLife = sharedPreferences.getInt("life", 0);
+//        if(externalLife < 0)
+//            externalLife = 0;
         mUnityPlayer.UnitySendMessage("Player", "setExternalLife", String.valueOf(externalLife));
     }
 

@@ -1,4 +1,4 @@
-#Wed Feb 06 16:00:42 MSK 2019
+#Wed Feb 06 16:29:18 MSK 2019
 base.0=C\:\\Users\\Anton\\Desktop\\ExportFolder\\MisteryOfEgypt\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
 renamed.1=classes2.dex
